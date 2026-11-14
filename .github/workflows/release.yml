@@ -1,6 +1,8 @@
 name: Create package on release
 
-on: create
+on:
+  workflow_dispatch:
+  "create":
 
 env:
   GRIDDB_SERVER_NAME: "griddb"
